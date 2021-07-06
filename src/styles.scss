@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 2rem;
+
+  .btn {
+    padding: 0.7rem;
+    font-size: 1rem;
+    font-weight: 700;
+    outline: 0;
+    border: none;
+    border-radius: 0.3rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #065ab4;
+    border-color: #007bff;
+
+    &:hover {
+      background-color: #097df8;
+    }
+  }
+  
+  .btn-danger {
+    background-color: #af2b38;
+    border-color: #dc3545;
+
+    &:hover {
+      background-color: #f7071f;
+    }
+  }
+  
+  .cash {
+    max-width: 15rem;
+    text-align: center;
+    margin: 0 0.7rem 0 0.7rem;
+  }
+}
+
+
